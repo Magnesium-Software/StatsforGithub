@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Stats_for_GitHubApp: App {
+struct StatsforGitHubApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
