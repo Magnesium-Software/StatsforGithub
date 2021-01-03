@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var pat: String = ""
+    
     var body: some View {
         ZStack {
-            Text("Hello World!")
-                .font(.system(.largeTitle))
-                .padding()
+            VStack {
+                Text("Stats for GitHub 📊")
+                    .font(.system(.title))
+                TextField("Please enter your PAT", text: $pat)
+                Spacer()
+            }
         }
     }
 }
